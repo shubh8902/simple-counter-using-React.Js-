@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    position: relative;
+    bottom: 10vh;
+    color: brown;
+}
+
+.count {
+    font-size: 100px;
+}
+
+.btn-plus {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.btn-minus {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.btn-plus:hover {
+    background-color: red;
+    color: white;
+}
+
+.btn-minus:hover {
+    background-color: red;
+    color: white;
+}
